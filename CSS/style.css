@@ -1,0 +1,103 @@
+@font-face {
+	font-family: "Prociono-Regular";
+	src: url(../fonts/Prociono-Regular.ttf);
+}
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+    background-image: url("../IMG/body1.jpg");
+}
+
+/* HEADER */
+.contenedor-principal{
+	width: 100%;
+	
+
+}
+
+.contenedor {
+	padding:30px;
+	display:flex;
+	width: 100%;
+}
+.titulo {
+	margin-left:100px;
+	margin-right:450px;
+	background:linear-gradient(to right,white,white,white,#2678DC,#2678DC,#2678DC,#2678DC,#2678DC);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	
+}
+.menu {
+	margin-top:13px;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.menu a {
+	color:white;
+	margin-right:20px;
+	text-decoration:none;
+	
+}
+.clean {
+	border:3px solid #2678DC;
+}
+nav a:hover{
+	color:#2678DC;
+}
+.elementos{
+    
+    padding: 20px;
+    text-align: center;
+}
+.elementos input{
+    padding:10px;
+    font-size: 30px;
+    margin-top:5px;
+    border:2px solid rgb(126, 133, 130);
+    border-radius: 10px;
+}
+.sub{
+    color: #fff;    
+    text-align: center;
+    font-size: 30px;
+}
+.sub2{
+    color: #fff; 
+    text-align: center;
+    font-size: 30px;   
+}
+.pag{
+    
+    text-align: center;
+    font-size: 30px;  
+}
+.pag1{
+    text-decoration: none;
+    color: #fff; 
+    padding: -1rem;
+}
+.pag1:hover{
+    background-color:#2678DC;
+    border-radius: 10px;
+}
+
+.sub2 input{
+    font-size: 30px;
+    border:2px solid rgb(126, 133, 130);
+    border-radius: 10px;
+}
+.btn2{
+    /* margin-left: 880px;*/
+    margin-top:2rem; 
+    font-size: 30px;
+    border:2px solid rgb(126, 133, 130);
+    border-radius: 10px;
+}
+.btn2:hover{
+    background-color:#2678DC;
+}

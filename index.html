@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/fontello.css">
+    <link rel="shortcut icon" type="image/png" href="IMG/favicon.png" />
+    <script src="./JS/gym.js"></script>
+    <title>GYM</title>
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <div class="contenedor">
+            <div>
+                <header>
+                    <div class="titulo">
+                        <h1>Calcu Gym</h1>
+                    </div>
+                </header>
+            </div>
+            <nav>
+                <div class="menu">
+                    <a href="index.html">INICIO</a>
+                    <a href="">CONTACTANOS</a>
+                    <a href="">QUIENES SOMOS</a>
+
+                </div>
+            </nav>
+        </div>
+        <main>
+            <div class="elementos">
+                <form name="saber">
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre"><br>
+                    <input type="number" id="edad" placeholder="Ingrese su edad"><br>
+                    <input type="text" id="estatura" placeholder="Ingrese su estatura"><br>
+                    <input type="text" id="peso" placeholder="Ingrese su peso"><br>
+                    <button class="btn2" type="button" onclick="guardar_datos()">Guardar</button> <br>
+                    <button class="btn2" type="button" onclick="datos()">Resultado</button>
+                    <h3 class="sub">Su indice de masa corporal (IMC) es...<br></h3>
+                    <input class="put" type="text" id="dato">
+                    <h3 class="sub2">¿Que quieres trabajar hoy?</h3>
+                </form>
+                <div class="pag" >
+                    <a href="pierna.html" class="pag1" target="_blank">Pierna</a> <br>
+                    <a href="brazo.html" class="pag1" target="_blank">Brazo</a> <br>
+                    <a href="espalda.html" class="pag1" target="_blank">Espalda</a><br>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+</body>
+
+</html>
